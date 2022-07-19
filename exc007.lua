@@ -1,0 +1,7 @@
+io.write("Digite sua idade em Dias:")
+Dias = tonumber(io.read())
+Anos = math.floor(Dias / 365)
+Meses = math.floor(Dias / 30)
+dias = math.floor(Dias % 30) 
+print("Sua idade em anos é:  "..(Anos).."   Anos")
+print("sua idade em meses: "..(Meses).."  Meses".."  e "..(dias).."  dias!" )
