@@ -1,0 +1,8 @@
+print("Mistica maquina de quociente e resto de Divisão")
+io.write("Por obsequio digite o primeiro numero:")
+namber1 = tonumber(io.read())
+io.write("Agora o Segundo:")
+namber2 = tonumber(io.read())
+Qiu = math.floor(namber1 / namber2)
+print("quociente igual a:"..(Qiu ) )
+print("Resto igual a:"..(namber1 % namber2) )
