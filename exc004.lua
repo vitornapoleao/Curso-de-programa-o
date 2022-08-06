@@ -1,10 +1,10 @@
 print("digite os lados do triangulo em questão")
 io.write("digite lado A")
-ladoA = tonumber(io.read())
+lado_a = tonumber(io.read())
 io.write("digite o lado B")
-ladoB = tonumber(io.read())
+lado_b = tonumber(io.read())
 io.write("digite o lado C")
-ladoC = tonumber(io.read())
-perimetro = ladoA + ladoB + ladoC
+lado_c = tonumber(io.read())
+perimetro = lado_a + lado_b + lado_c
 
 print("O perimetro do triangulo é:"..(perimetro))
