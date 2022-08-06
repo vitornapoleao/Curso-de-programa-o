@@ -1,4 +1,4 @@
 io.write("Digite um numero inteiro:")
-number = tonumber(io.read())
-sucessor = namber + 1
+numero = tonumber(io.read())
+sucessor = numero + 1
 print("Sucessor igual a:"..(sucessor))
